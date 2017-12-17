@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Robert McKenney <robert@mckenney.ca>",
+  "author": "Bridget Bradley <brad0397@algonquinlive.ca>",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
