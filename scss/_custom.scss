@@ -1,5 +1,27 @@
 // Additional colours
-$off-white: #feffff;
+$mint-green: #b4efbc;
 
-// Override bootstrap default
-$body-bg: $off-white;
+
+.carousel-indicators li::before {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  content: "";
+}
+
+.carousel-indicators li::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  content: "";
+}
+
+.carousel-indicators .active {
+  background-color: #b4efbc;
+}
