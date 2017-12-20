@@ -25,3 +25,10 @@ $mint-green: #b4efbc;
 .carousel-indicators .active {
   background-color: #b4efbc;
 }
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #b4efbc;
+  background-color: #b4efbc;
+  border-color: #ddd #ddd #fff;
+}
