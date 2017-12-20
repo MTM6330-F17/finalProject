@@ -5467,7 +5467,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .text-lowercase {
   text-transform: lowercase !important; }
 
-.text-uppercase {
+.text-uppercase, .header-subtle {
   text-transform: uppercase !important; }
 
 .text-capitalize {
@@ -5512,10 +5512,10 @@ a.text-success:focus, a.text-success:hover {
 a.text-info:focus, a.text-info:hover {
   color: #117a8b !important; }
 
-.text-warning {
+.text-warning, .header-subtle {
   color: #ffc107 !important; }
 
-a.text-warning:focus, a.text-warning:hover {
+a.text-warning:focus, a.header-subtle:focus, a.text-warning:hover, a.header-subtle:hover {
   color: #d39e00 !important; }
 
 .text-danger {
@@ -5551,3 +5551,26 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
+
+body {
+  padding: 2rem 0; }
+
+html {
+  font-size: 14px; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 16px; } }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px; } }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 28px; } }
+
+.header-subtle {
+  font-size: 1.2rem;
+  letter-spacing: .12em;
+  opacity: .6; }
