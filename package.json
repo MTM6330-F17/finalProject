@@ -1,0 +1,27 @@
+{
+  "name": "final project",
+  "version": "1.0.0",
+  "description": "final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MTM6330-F17/slytherin-final-project"
+  },
+  "author": "Bridget Bradley <brad0397@algonquinlive.ca>",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "bootstrap": "^4.0.0-beta.2",
+    "cssnano": "^3.10.0",
+    "gulp-postcss": "^7.0.0",
+    "jquery": "^3.0.0",
+    "popper.js": "^1.11.0"
+  }
+}
