@@ -5552,6 +5552,23 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: helvetica; }
+.row {
+  margin: auto; }
+
+.carousel-control-prev {
+  opacity: 0; }
+
+.carousel-control-next {
+  opacity: 0; }
+
+.carousel-indicators {
+  opacity: 0; }
+
+.col-md-7 {
+  margin: auto;
+  max-width: 100%;
+  flex: none; }
+
+.featurette-heading {
+  text-align: center;
+  margin-bottom: 50px; }
