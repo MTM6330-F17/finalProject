@@ -9332,3 +9332,15 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .second-slide {
   width: 100%;
 }
+
+body {
+  font-style: Helvetica;
+}
+
+.motionGraphics {
+  margin-top: 110px;
+}
+
+footer {
+  margin-left: 115px;
+}
