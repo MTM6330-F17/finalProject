@@ -7338,6 +7338,12 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   .float-sm-none {
     float: none !important;
   }
+  .motionGraphics {
+    width: 100%;
+  }
+.serverSide {
+  width: 100%;
+}
 }
 
 @media (min-width: 768px) {
@@ -7350,6 +7356,12 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   .float-md-none {
     float: none !important;
   }
+  .motionGraphics {
+    width: 100%;
+  }
+.serverSide {
+  width: 100%;
+}
 }
 
 @media (min-width: 992px) {
