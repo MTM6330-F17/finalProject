@@ -5993,6 +5993,6 @@ ul {
 p .head-2 {
   padding-top: 15px; }
 
-.featurette-divider {
-  margin: 0;
+.featurette-divider-top {
+  margin: 1rem 0;
   /* Space out the Bootstrap <hr> more */ }
