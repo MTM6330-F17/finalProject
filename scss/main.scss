@@ -1,2 +1,14 @@
 @import 'custom';
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+ul {
+  list-style-type: none;
+}
+
+p .head-2 {
+  padding-top: 15px;
+}
+
+.featurette-divider {
+  margin: 0; /* Space out the Bootstrap <hr> more */
+}
