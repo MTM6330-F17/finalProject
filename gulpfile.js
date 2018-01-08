@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Declare global scope variables.
 const gulp = require('gulp')      // load the gulp library
 const sass = require('gulp-sass') // load the gulp-sass compiler library
@@ -11,7 +10,8 @@ const cssnano = require('cssnano') // load the cssnano plugin
 gulp.task('sass', function () {
   // Create a plugins variable with the names and configuration parameters
   // of the PostCSS plugins that we want to use.
-=======
+
+
 const gulp = require('gulp')
 
 const sass = require('gulp-sass')
@@ -25,12 +25,12 @@ const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
 
 gulp.task('sass', function () {
->>>>>>> master
+
   const plugins = [
     autoprefixer({ browsers: ['last 2 version'] }),
     cssnano()
-  ]
-<<<<<<< HEAD
+  ];
+
   // Now lets tell gulp what to do ...
   return gulp
     .src(sassPath)            // where to find the Sass source files (use our variable)
@@ -46,7 +46,6 @@ gulp.task('default', function () {
   gulp.watch(
     sassPath, // which files to watch for changes (use our variable)
     ['sass']) // an array of tasks to run when changes are detected.
-=======
 
   return gulp
 
@@ -64,7 +63,7 @@ gulp.task('default', function () {
 
 gulp.task('default', function () {
   gulp.watch(
-  sassPath, 
+  sassPath,
   ['sass'])
->>>>>>> master
+
 })

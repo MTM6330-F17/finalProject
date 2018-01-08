@@ -1,25 +1,25 @@
 {
-<<<<<<< HEAD
+
   "name": "mtm6330-week5",
   "version": "1.0.0",
   "description": "Bootstrap demo",
-=======
+
   "name": "portfolio",
   "version": "1.0.0",
   "description": "midterm project - Bridget Bradley",
->>>>>>> master
+
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
+
   "author": "Robert McKenney <robert@mckenney.ca>",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "bootstrap": "^4.0.0-beta",
-=======
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bridgetbradley/portfolio.git"
@@ -32,17 +32,18 @@
   "homepage": "https://github.com/bridgetbradley/portfolio#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.6",
->>>>>>> master
+
     "cssnano": "^3.10.0",
-    "gulp": "^3.9.1",
+    "gulp": "^3.9aa.1",
     "gulp-postcss": "^7.0.0",
     "gulp-sass": "^3.1.0",
-<<<<<<< HEAD
+
     "jquery": "^3.0.0",
-    "popper.js": "^1.11.0"
-=======
+    "popper.js": "^1.11.0",
+
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.3"
->>>>>>> master
+
   }
+}
 }
