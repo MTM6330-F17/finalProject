@@ -1,0 +1,88 @@
+@import 'custom';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.row {
+  margin: auto;
+}
+
+.h1, h1 {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #40b253;
+  opacity: 10px;
+}
+
+.carousel-control-prev {
+  opacity: 0;
+}
+
+.carousel-control-next {
+
+  opacity: 0;
+}
+
+.carousel-indicators {
+  opacity: 0;
+}
+
+.col-md-7 {
+  margin: auto;
+  max-width: 100%;
+  flex: none;
+
+}
+
+.featurette-heading {
+
+  margin-bottom: 50px;
+}
+
+
+.button {
+    background-color:#40b253;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 23px 23px 23px 23px;
+
+}
+
+a:hover {
+  color: #b4efbc;
+
+}
+
+
+.btn btn-lg btn-primary {
+    background-color:#40b253;
+}
+
+.featurette-divider {
+
+  background-color: #1b3f00;
+  height: 1.5px;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #b4efbc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+  color:white;
+}
+
+.carousel-caption {
+margin-bottom: 120px;
+
+}
+
+.rounded-circle {
+  margin-bottom: 20px;
+}
