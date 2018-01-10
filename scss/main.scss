@@ -93,6 +93,12 @@ html {
 	font-size: 32px;
 	text-align: center;
 	margin-top: 0;
+	@media only screen and (max-width: 720px) {
+		font-size: 26px;
+	}
+	@media only screen and (max-width: 540px) {
+		font-size: 22px;
+	}
 }
 #myCarousel {
 	margin-bottom: 20px;
@@ -103,6 +109,13 @@ html {
 	height: 3px;
 	background-color: $primaryColor;
 	margin: 10px auto 40px auto;
+	@media only screen and (max-width: 720px) {
+		width: 120px;
+	}
+	@media only screen and (max-width: 540px) {
+		width: 100px;
+		margin-bottom: 30px;
+	}
 }
 
 .mainbox {
@@ -117,6 +130,18 @@ html {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 100px;
+	@media only screen and (max-width: 720px) {
+		width: 600px;
+		height: 460px;
+		padding-top: 80px;
+	}
+	@media only screen and (max-width: 540px) {
+		width: 450px;
+		height: 440px;
+		padding-top: 70px;
+		padding-left: 15px;
+		padding-right: 15px;
+	} 
 }
 .profname {
 	width: 100%;
@@ -129,6 +154,15 @@ html {
 	padding-top: 15px;
 	padding-left: 30px;
 	h4 { color: #fbfbfb; opacity: 0.89; }
+	@media only screen and (max-width: 720px) {
+		padding-top: 20px;
+		h4 { font-size: 20px; }
+	}
+	@media only screen and (max-width: 540px) {
+		padding-left: 15px;
+		padding-top: 22px;
+		h4 { font-size: 16px; }
+	}
 }
 .right, .left { float: left; }
 
@@ -141,6 +175,20 @@ html {
 		h5 { font-size: 1.2em; font-weight: 700; color: #191919; }
 		h6 { font-size: 0.8em; color: #7d7d7d; }
 	}
+	@media only screen and (max-width: 720px) {
+		width: 220px;
+		figure { width: 220px; }
+		img { width: 180px; height: 180px; }
+		h5 { font-size: 1em; }
+		h6 { font-size: 0.7em; }
+}
+	@media only screen and (max-width: 540px) {
+		width: 180px;
+		figure { width: 180px; }
+		img { width: 140px; height: 140px; margin-bottom: 10px; }
+		h5 { font-size: 0.8em !important; }
+		h6 { font-size: 8px; }
+}
 }
 .left {
 	width: 440px;
@@ -149,6 +197,20 @@ html {
 	a {
 		color: #fbfbfb; 
 		:hover { text-decoration: none; color: #fbfbfb; }
+	}
+	@media only screen and (max-width: 720px) {
+		width: 320px;
+		p {
+			font-size: 14px;
+			line-height: 21px;
+		}
+	} 
+	@media only screen and (max-width: 540px) {
+		width: 240px;
+		p {
+			font-size: 12px;
+			line-height: 18px;
+		}
 	}
 }
 .profbutton {
