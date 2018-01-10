@@ -1,29 +1,10 @@
 {
-<<<<<<< HEAD
-  "name": "mtm6330-week5",
-  "version": "1.0.0",
-  "description": "Bootstrap demo",
-=======
   "name": "final project",
   "version": "1.0.0",
   "description": "final project",
->>>>>>> master
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
-  "author": "Robert McKenney <robert@mckenney.ca>",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "bootstrap": "^4.0.0-beta",
-    "cssnano": "^3.10.0",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.0",
-    "gulp-sass": "^3.1.0",
-=======
   "repository": {
     "type": "git",
     "url": "https://github.com/MTM6330-F17/slytherin-final-project"
@@ -32,15 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "cssnano": "^3.10.0",
-    "gulp-postcss": "^7.0.0",
->>>>>>> master
     "jquery": "^3.0.0",
     "popper.js": "^1.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.4",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0"
   }
 }
