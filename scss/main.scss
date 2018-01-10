@@ -106,19 +106,20 @@ html {
 }
 
 .mainbox {
-	width: 800px;
+	max-width: 800px;
 	height: 500px;
 	margin: 0 auto;
 	margin-bottom: 60px;
 	background-color: #f1f1f1;
 	position: relative;
+	z-index: 2;
 	border-radius: 15px;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 100px;
 }
 .profname {
-	width: 800px;
+	width: 100%;
 	height: 60px;
 	background-color: $primaryColor;
 	border-radius: 15px 15px 0 0;
@@ -160,4 +161,14 @@ html {
 	padding-left: 35px;
 	padding-top: 8px;
 	border-radius: 8px;
+}
+
+.connectline {
+	width: 2px;
+	height: 1000px;
+	background-color: $primaryColor;
+	position: absolute;
+	left: 50%;
+	top: 1000px;
+	z-index: 0;
 }
