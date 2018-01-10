@@ -5595,3 +5595,35 @@ a :active {
 
 .rounded-circle {
   margin-bottom: 20px; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+html {
+  font-family: Helvetica, 'sans-serif'; }
+
+.profstitle {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0; }
+
+#myCarousel {
+  margin-bottom: 20px; }
+
+.bar {
+  width: 180px;
+  height: 4px;
+  background-color: #40b253;
+  margin: 10px auto; }
